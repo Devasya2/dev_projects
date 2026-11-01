@@ -54,6 +54,7 @@ else:
     print()
 
     random_number = random.randint(1, 10)
+    print('for discount guess the magic number from 1 to 10')
     guess=int(input('enter guess'))
     if guess==random_number:
        print('congrats. you got 50% off')
